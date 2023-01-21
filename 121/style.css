@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+background-image: url(./trigun-stampede-trailer.webp);
+
+background-size: cover;
+background-attachment: scroll;
+
+height: 80vh;
+background-repeat: no-repeat;
+background-position: center;
+text-align: center;
+overflow: hidden;
+color: aqua;
+
+}
+.name{
+   margin-top: 20vh;
+   margin-bottom: 5vh;
+font-size: 25px;
+font-family: cursive;
+}
+.title{
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.second img{
+    width: 200px;
+}
+.second h2{
+    font-size: 19px;
+    margin-top: 3vh;
+    margin-bottom: 4vh;
+    color: aquamarine;
+}
+.second{
+    text-align: center;
+    margin-top: 8vh;
+
+}
+#dots{
+    font-size: 30px;
+    text-align: center;
+    color: bisque;
+    margin: 10vh 0;
+}
+#skills{
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 8vh;
+    color: aquamarine;
+}
+.design img{
+    width: 100px;
+    height: 100px;
+    margin-right: 3vw;
+}
+.design{
+    display: flex;
+    justify-content: center;
+    
+}
+.design h4{
+    color: aquamarine;
+}
+.rest img{
+    width: 100px;
+    height: 100px;
+    margin-left: 3vw;
+}
+.rest{
+    margin-top: 8vh;
+    display: flex;
+    justify-content: center;
+}
+.rest h4{
+    color: aquamarine;
+}
+#touch{
+    margin-top: 15vh;
+    color: aquamarine;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+#working{
+    text-align: center;
+}
+.btn{
+    background-color: aquamarine;
+    border: none;
+    color: aliceblue;
+    padding: 8px;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+    transition: 0.3s ease-in-out;
+}
+.btn:hover{
+    background-color: rgb(193, 250, 231);
+    cursor: pointer;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+footer{
+    background-color: blueviolet;
+    color: antiquewhite;
+    text-align: center;
+    height: 20vh;
+
+}
+ul{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+li{
+    margin: 25px 5px;
+    list-style-type: none;
+}
